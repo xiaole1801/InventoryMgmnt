@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 6, 2015 1:09:56 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="models.OSleUserView" table="OSLEUSERVIEW">
+    		<id name="OSleID" type="java.lang.String">
+            <column name="OSLEID" />
+            <generator class="assigned" />
+        </id>
+        <property name="InvID" type="java.lang.String">
+            <column name="INVID" />
+        </property>
+        <property name="CourierCompany" type="java.lang.String">
+            <column name="COURIERCOMPANY" />
+        </property>
+        <property name="PickupPerson" type="java.lang.String">
+            <column name="PICKUPPERSON" />
+        </property>
+        <property name="PickupTime" type="java.util.Date">
+            <column name="PICKUPTIME" />
+        </property>
+        <property name="TrackingNum" type="java.lang.String">
+            <column name="TRACKINGNUM" />
+        </property>
+        <property name="PackEngID" type="java.lang.String">
+            <column name="PACKENGID" />
+        </property>
+        <property name="PackTime" type="java.util.Date">
+            <column name="PACKTIME" />
+        </property>
+        <property name="Status" type="java.lang.String">
+            <column name="STATUS" />
+        </property>
+        <property name="UserID" type="java.lang.String">
+            <column name="USERID" />
+        </property>
+        <property name="UserName" type="java.lang.String">
+            <column name="USERNAME" />
+        </property>
+        <property name="Remark" type="java.lang.String">
+            <column name="REMARK" />
+        </property>
+    </class>
+</hibernate-mapping>

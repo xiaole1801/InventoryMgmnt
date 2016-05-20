@@ -1,0 +1,5 @@
+"Inventory ID","ISleID","OSleID","Create Time","Create Engineer Name","Project Number","Project Mananger Name","Client Project Number","Checkin Engineer Name","Checkin Time","Checkout Engineer Name","Checkout Time","Storage ID","Description","RADAR","System SN","Configure Number","Vendor","Poject Status","Security Status","Storage Status","Verification Status"
+"213132"," ","20813808371033","2015-07-01 00:00:00.0","d","123123","d","333","shutiao","2015-07-01 00:00:00.0","","","12313","","","","","","active","re-leased","checked in","verified"
+"808001258026","108866377756","20504409926322","2015-07-02 00:00:00.0","d","sdfsdf","d","sdfsdf","d","2015-07-02 00:00:00.0","","","12313","","sdf","sdf","sdf","fd","active","re-leased","checked in","verified"
+"8039021714177","108866377756","20504409926322","2015-07-05 00:00:00.0","xi","345345","d","dfgdfg","xi","2015-07-05 00:00:00.0","","","12313","","sdf","sdf","sd","sdf","active","re-leased","checked in","verified"
+"2121","  ","20034011106066","","d","123","d","","d","","shutiao","","","","","","","","active","re-leased","checked out","unverified"

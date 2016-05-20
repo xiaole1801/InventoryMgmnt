@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 6, 2015 1:09:56 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="models.InvInfo" table="INVINFO">
+        <id name="InvID" type="java.lang.String">
+            <column name="INVID" />
+            <generator class="assigned" />
+        </id>
+        <property name="ProjectNum" type="java.lang.String">
+            <column name="PROJECTNUM" />
+        </property>
+        <property name="ProjectManageID" type="java.lang.String">
+            <column name="PROJECTMANAGEID" />
+        </property>
+        <property name="ClientProductNum" type="java.lang.String">
+            <column name="CLIENTPRODUCTNUM" />
+        </property>
+        <property name="CreatEngID" type="java.lang.String">
+            <column name="CREATENGID" />
+        </property>
+        <property name="CreatTime" type="java.util.Date">
+            <column name="CREATTIME" />
+        </property>
+        <property name="CheckInEngID" type="java.lang.String">
+            <column name="CHECKINENGID" />
+        </property>
+        <property name="CheckInTime" type="java.util.Date">
+            <column name="CHECKINTIME" />
+        </property>
+        <property name="StorageID" type="java.lang.String">
+            <column name="STORAGEID" />
+        </property>
+        <property name="CheckOutEngID" type="java.lang.String">
+            <column name="CHECKOUTENGID" />
+        </property>
+        <property name="CheckOutTime" type="java.util.Date">
+            <column name="CHECKOUTTIME" />
+        </property>
+        <property name="ISleID" type="java.lang.String">
+            <column name="ISLEID" />
+        </property>
+        <property name="OSleID" type="java.lang.String">
+            <column name="OSLEID" />
+        </property>
+        <property name="Description" type="java.lang.String">
+            <column name="DESCRIPTION" />
+        </property>
+        <property name="RADAR" type="java.lang.String">
+            <column name="RADAR" />
+        </property>
+        <property name="SystemSN" type="java.lang.String">
+            <column name="SYSTEMSN" />
+        </property>
+        <property name="ConfigNum" type="java.lang.String">
+            <column name="CONFIGNUM" />
+        </property>
+        <property name="Vendor" type="java.lang.String">
+            <column name="VENDOR" />
+        </property>
+        <property name="ProjectStatus" type="java.lang.String">
+            <column name="PROJECTSTATUS" />
+        </property>
+        <property name="SecurityStatus" type="java.lang.String">
+            <column name="SECURITYSTATUS" />
+        </property>
+        <property name="StorageStatus" type="java.lang.String">
+            <column name="STORAGESTATUS" />
+        </property>
+        <property name="VerificationStatus" type="java.lang.String">
+            <column name="VERIFICATIONSTATUS" />
+        </property>
+    </class>
+</hibernate-mapping>
